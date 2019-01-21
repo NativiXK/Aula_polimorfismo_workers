@@ -20,7 +20,9 @@ public final class EmployeeWallet {
 	}
 
 	public Employee searchByName (String name) {
+		
 		Employee match = null;
+		
 		for (Employee emp : employees) {
 			if (emp.getName() == name) {
 				match = emp;

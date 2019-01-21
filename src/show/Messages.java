@@ -14,7 +14,8 @@ public class Messages {
 		sb.append("2 - Remove a employee\n");
 		sb.append("3 - Mass addition\n");
 		sb.append("4 - Search by name\n");
-		sb.append("5 - Exit\n");
+		sb.append("5 - Payments");
+		sb.append("6 - Exit\n");
 
 		return sb;
 	}
